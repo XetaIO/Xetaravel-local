@@ -8,10 +8,10 @@
         "environment",
         "tools"
     ],
-    "homepage": "https://github.com/XetaIO/Laravel-local",
+    "homepage": "https://github.com/XetaIO/Xetaravel-local",
     "support": {
-        "source": "https://github.com/XetaIO/Laravel-local",
-        "issues": "https://github.com/XetaIO/Laravel-local/issues"
+        "source": "https://github.com/XetaIO/Xetaravel-local",
+        "issues": "https://github.com/XetaIO/Xetaravel-local/issues"
     },
     "type": "library",
     "license": "MIT",
@@ -40,6 +40,11 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --provider=\"Barryvdh\\Debugbar\\ServiceProvider\""
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true

@@ -8,7 +8,7 @@ class LocalEnvironmentServiceProvider extends ServiceProvider
 {
 
     /**
-     * List of Local Environment Providers
+     * List of Local Environment Providers.
      *
      * @var array
      */
@@ -17,7 +17,7 @@ class LocalEnvironmentServiceProvider extends ServiceProvider
     ];
 
     /**
-     * List of only Local Environment Facade Aliases
+     * List of Local Environment Facade Aliases.
      *
      * @var array
      */
@@ -48,7 +48,7 @@ class LocalEnvironmentServiceProvider extends ServiceProvider
     }
 
     /**
-     * Load local service providers
+     * Load local service providers.
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class LocalEnvironmentServiceProvider extends ServiceProvider
     }
 
     /**
-     * Load additional Aliases
+     * Load additional Facades aliases.
      *
      * @return void
      */
