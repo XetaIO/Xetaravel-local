@@ -1,5 +1,5 @@
 <?php
-namespace Xetaravel\Local\Exceptions;
+namespace Xetaio\Local\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

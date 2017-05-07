@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xetaravel\\Local\\": "src/"
+            "Xetaio\\Local\\": "src/"
         }
     },
     "autoload-dev": {

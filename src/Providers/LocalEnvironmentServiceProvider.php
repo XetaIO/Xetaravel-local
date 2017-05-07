@@ -1,5 +1,5 @@
 <?php
-namespace Xetaravel\Local\Providers;
+namespace Xetaio\Local\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
@@ -67,7 +67,7 @@ class LocalEnvironmentServiceProvider extends ServiceProvider
     public function registerFacadeAliases()
     {
         $loader = AliasLoader::getInstance();
-        
+
         foreach ($this->facadeAliases as $alias => $facade) {
             $loader->alias($alias, $facade);
         }
