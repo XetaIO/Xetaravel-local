@@ -1,5 +1,9 @@
 > <h1 align="center">Xetaravel Local</h1>
 >
+> |Stable Version|Downloads|Laravel|License|
+> |:-------:|:------:|:-------:|:-------:|
+> |[![Latest Stable Version](https://img.shields.io/packagist/v/XetaIO/Xetaravel-local.svg?style=flat-square)](https://packagist.org/packages/xetaio/xetaravel-local)|[![Total Downloads](https://img.shields.io/packagist/dt/xetaio/xetaravel-local.svg?style=flat-square)](https://packagist.org/packages/xetaio/xetaravel-local)|[![Laravel 5.4](https://img.shields.io/badge/Laravel-5.4-f4645f.svg?style=flat-square)](http://cakephp.org)|[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://packagist.org/packages/xety/xeta)|
+>
 > A  simple package that regroup all tools to work in local environment.
 >
 > |Packages Included|
