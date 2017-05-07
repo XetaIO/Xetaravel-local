@@ -31,5 +31,10 @@
 >     //
 > }
 > ```
+> If you want to change the `DebugBar` config, you will need to publish the config :
+> ```
+> php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+> ```
+>
 > ## Contribute
 > If you want to contribute to the project by adding new features or just fix a bug, feel free to do a PR.

@@ -41,11 +41,6 @@
             "Tests\\": "tests/"
         }
     },
-    "scripts": {
-        "post-update-cmd": [
-            "php artisan vendor:publish --provider=\"Barryvdh\\Debugbar\\ServiceProvider\""
-        ]
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
