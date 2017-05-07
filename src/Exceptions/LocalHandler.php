@@ -3,6 +3,7 @@ namespace Xetaravel\Local\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Facades\App;
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;
 
@@ -18,7 +19,7 @@ class LocalHandler extends ExceptionHandler
      */
     protected function convertExceptionToResponse(Exception $e)
     {
-        if (config('app.debug')) {
+        if (App::isLocal()) {
             $whoops = new Run();
             $whoops->pushHandler(new PrettyPageHandler());
 
