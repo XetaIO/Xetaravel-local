@@ -1,6 +1,6 @@
 {
     "name": "xetaio/xetaravel-local",
-    "description": "A simple package that regroup all tools to work in locak environment.",
+    "description": "A simple package that regroup all tools to work in local environment.",
     "keywords": [
         "laravel",
         "package",
