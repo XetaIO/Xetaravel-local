@@ -42,7 +42,7 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
+        "post-package-install": [
             "php artisan vendor:publish --provider=\"Barryvdh\\Debugbar\\ServiceProvider\""
         ]
     },
