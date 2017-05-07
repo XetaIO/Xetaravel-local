@@ -4,7 +4,7 @@
 >
 > |Packages Included|
 > |---|
-> |[![barryvdh/laravel-debugbar](https://img.shields.io/badge/barryvdh%2Flaravel.debugbar-^2.3-44CB12.svg?style=flat-square)](https://github.com/barryvdh/laravel-debugbar)<br>[![filp/whoops](https://img.shields.io/badge/filp%2Fwhoops-^2.1-44CB12.svg?style=flat-square)](https://github.com/barryvdh/laravel-debugbar)|
+> |[![barryvdh/laravel-debugbar](https://img.shields.io/badge/barryvdh%2Flaravel.debugbar-^2.3-44CB12.svg?style=flat-square)](https://github.com/barryvdh/laravel-debugbar)<br>[![filp/whoops](https://img.shields.io/badge/filp%2Fwhoops-^2.1-44CB12.svg?style=flat-square)](https://github.com/filp/whoops)|
 >
 > ## Installation
 >
