@@ -3,5 +3,5 @@
 .idea
 .settings
 .brackets.json
-composer.lock2
+composer.lock
 /vendor/
