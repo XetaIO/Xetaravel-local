@@ -1,0 +1,46 @@
+{
+    "name": "xetaio/xetaravel-local",
+    "description": "A simple package that regroup all tools to work in locak environment.",
+    "keywords": [
+        "laravel",
+        "package",
+        "local",
+        "environment",
+        "tools"
+    ],
+    "homepage": "https://github.com/XetaIO/Laravel-local",
+    "support": {
+        "source": "https://github.com/XetaIO/Laravel-local",
+        "issues": "https://github.com/XetaIO/Laravel-local/issues"
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xety",
+            "email": "emeric@xeta.io",
+            "homepage": "https://github.com/Xety"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.4.*",
+        "barryvdh/laravel-debugbar": "^2.3",
+        "filp/whoops": "^2.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xetaravel\\Local\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
